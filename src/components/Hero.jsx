@@ -5,6 +5,17 @@ export default function Hero() {
     <section id="about" className="min-h-screen flex items-center pt-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="flex justify-center lg:hidden animate-fade-in">
+            <div className="relative w-32 h-32">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-accent/30 to-accent-dark/10 blur-3xl" />
+              <img
+                src="/skoobz.png"
+                alt="Skoobz"
+                className="relative w-full h-full rounded-full object-contain border border-black/10 dark:border-white/10"
+              />
+            </div>
+          </div>
+
           <div className="animate-slide-up">
             <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-4">
               Hey, I'm

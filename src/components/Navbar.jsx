@@ -25,6 +25,7 @@ export default function Navbar() {
           <li><a href="#about" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
           <li><a href="#skills" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Skills</a></li>
           <li><a href="#projects" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Projects</a></li>
+          <li><a href="#packages" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Packages</a></li>
           <li><a href="#contact" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Contact</a></li>
         </ul>
 
@@ -49,6 +50,7 @@ export default function Navbar() {
             <li><a href="#about" onClick={() => setMenuOpen(false)} className="block text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
             <li><a href="#skills" onClick={() => setMenuOpen(false)} className="block text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Skills</a></li>
             <li><a href="#projects" onClick={() => setMenuOpen(false)} className="block text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Projects</a></li>
+            <li><a href="#packages" onClick={() => setMenuOpen(false)} className="block text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Packages</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)} className="block text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">Contact</a></li>
           </ul>
         </div>

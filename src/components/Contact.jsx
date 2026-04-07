@@ -3,9 +3,6 @@ export default function Contact() {
     <section id="contact" className="py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-accent/10 to-transparent border border-black/5 dark:border-white/5 rounded-3xl p-10 sm:p-16 text-center">
-          <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
-            Say hello
-          </p>
           <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-4">Get in touch</h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-10">
             Whether you have a project in mind, a question, or just want to connect — hit me up on Discord.
