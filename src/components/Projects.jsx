@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'GTPS.app',
     description: 'SaaS platform that lets Growtopia private server owners build and host their own site without writing any code. Drag-and-drop builder, custom domain support, live server status, and Stripe-powered paid tiers. All deployed on hardware provided by OVH.',
-    tags: ['React', 'Next.js', 'Fastify', 'TypeScript', 'PostgreSQL', 'Redis', 'Stripe', 'Tailwind', 'Caddy', 'S3', 'Github Actions'],
+    tags: ['React', 'Next.js', 'Fastify', 'TypeScript', 'PostgreSQL', 'Redis', 'Stripe', 'Tailwind', 'Caddy', 'S3', 'GitHub Actions'],
     github: null,
     live: 'https://gtps.app',
   },
