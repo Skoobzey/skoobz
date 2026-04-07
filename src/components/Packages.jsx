@@ -79,7 +79,15 @@ export default function Packages() {
               <ul className="flex flex-col gap-2 mb-8 flex-1">
                 {pkg.features.map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
-                    <svg className="w-4 h-4 text-accent mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <svg
+                      className="w-4 h-4 text-accent mt-0.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                      aria-hidden="true"
+                      focusable="false"
+                    >
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     {f}
